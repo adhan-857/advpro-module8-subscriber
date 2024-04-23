@@ -32,7 +32,7 @@ Dari tiga gambar di atas, dapat dilihat bahwa tiap *subscriber* memproses *event
 
 ![image](https://github.com/adhan-857/my-first-repo/assets/119088782/edd7ff50-49fc-40f6-833b-d8c9c55f0a04)
 <br>
-Terlihat bahwa message queue berkurang (menjadi lebih cepat dibandingkan) sebelumnya. Hal ini disebabkan karena sekarang pesan atau *event* tersebut telah diproses oleh lebih banyak *subscriber* sehingga tidak terjadi penumpukan seperti sebelumnya.
+Terlihat bahwa *message queue* berkurang (menjadi lebih cepat) dibandingkan sebelumnya. Hal ini disebabkan karena sekarang pesan atau *event* tersebut telah diproses oleh lebih banyak *subscriber* sehingga tidak terjadi penumpukan seperti sebelumnya.
 <br>
 <br>
 Menurut saya, salah satu cara untuk meningkatkan performa dari aplikasi *subscriber* adalah dengan membuatnya menjadi *multithreading*. Hal ini agar aplikasi dapat mengolah banyak *event* dari *publisher* sekaligus.
